@@ -5,19 +5,11 @@
     <artifactId>servicecloud</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <artifactId>servicecloud-consumer-dept-80</artifactId>
-  <description>部门微服务消费者</description>
-  
+  <artifactId>servicecloud-eureka-7001</artifactId>
   <dependencies>
   	<dependency>
-  		<groupId>com.zhuwenshen.servicecloud</groupId>
-  		<artifactId>servicecloud-api</artifactId>
-  		<version>${project.version}</version>
-  	</dependency>
-
-  	<dependency>
-  		<groupId>org.springframework.boot</groupId>
-  		<artifactId>spring-boot-starter-web</artifactId>
+  		<groupId>org.springframework.cloud</groupId>
+  		<artifactId>spring-cloud-starter-eureka-server</artifactId>
   	</dependency>
   </dependencies>
 </project>
